@@ -1,0 +1,9 @@
+{
+    "name": "pierrocknroll/lavarel-passport-purge-command",
+    "description": "This command purge expired access/refresh tokens for Laravel Passport",
+    "autoload": {
+        "psr-4": {
+            "Pierrocknroll\\LavarelPassportPurgeCommand\\": ""
+        }
+    }
+}
