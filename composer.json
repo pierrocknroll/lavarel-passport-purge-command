@@ -3,9 +3,6 @@
     "description":"This command purge expired access/refresh tokens for Laravel Passport",
     "type":"library",
     "homepage":"https://github.com/pierrocknroll/lavarel-passport-purge-command",
-    "require":{
-        "laravel/framework":"^5.5"
-    },
     "autoload":{
         "psr-4":{
             "Pierrocknroll\\LavarelPassportPurgeCommand\\":"src"
