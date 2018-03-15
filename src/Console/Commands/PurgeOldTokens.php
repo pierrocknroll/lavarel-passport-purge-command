@@ -1,6 +1,6 @@
 <?php
 
-namespace Pierrocknroll\LavarelPassportPurgeCommand;
+namespace Pierrocknroll\LavarelPassportPurgeCommand\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Carbon;

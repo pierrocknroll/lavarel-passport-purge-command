@@ -1,9 +1,21 @@
 {
-    "name": "pierrocknroll/lavarel-passport-purge-command",
-    "description": "This command purge expired access/refresh tokens for Laravel Passport",
-    "autoload": {
-        "psr-4": {
-            "Pierrocknroll\\LavarelPassportPurgeCommand\\": ""
+    "name":"pierrocknroll/lavarel-passport-purge-command",
+    "description":"This command purge expired access/refresh tokens for Laravel Passport",
+    "type":"library",
+    "homepage":"https://github.com/pierrocknroll/lavarel-passport-purge-command",
+    "require":{
+        "laravel/framework":"^5.5"
+    },
+    "autoload":{
+        "psr-4":{
+            "Pierrocknroll\\LavarelPassportPurgeCommand\\":"src"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Pierrocknroll\\LavarelPassportPurgeCommand\\ServiceProvider"
+            ]
         }
     }
 }
