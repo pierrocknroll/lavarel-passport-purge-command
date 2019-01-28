@@ -32,8 +32,9 @@ class PurgeOldTokens extends Command
     public function handle()
     {
         $days = $this->option('days');
-        if (!is_numeric($days))
+        if (!is_numeric($days)) {
             $days = self::DEFAULT_DAYS;
+        }
 
         $date = Carbon::now()
             ->subDays($days)
