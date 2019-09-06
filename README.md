@@ -1,5 +1,5 @@
 # lavarel-passport-purge-command
-This command purge expired access/refresh tokens for Laravel Passport to not overload your database
+This command purges expired access/refresh tokens for Laravel Passport to not overload your database
 
 ## Installation
 * Install the command with composer :
